@@ -41,6 +41,33 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.liquibase</groupId>
+			<artifactId>liquibase-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-inline</artifactId>
+			<version>5.2.0</version> <!-- или последняя версия -->
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots</artifactId>
+			<version>6.1.0</version> <!-- Ваша версия -->
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
